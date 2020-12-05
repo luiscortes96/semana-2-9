@@ -2,10 +2,13 @@
   <div id="app">
     <h1 class="h1 text-center text-info">{{titulo}}</h1>
     <Noticias></Noticias>
+    <h1 class="h1 text-center text-info">{{equipo}}</h1>
+    <div class="container-fluid mx-auto">
     <div id="team" class="row row-cols-1 row-cols-lg-6  row-cols-sm-2 container-fluid mx-auto py-4 mx-2">
       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 "  v-for="(item, index) of team" :key="index">
         <TeamCard v-bind:member="item"></TeamCard>
       </div>
+    </div>
     </div>
     <footer-page> </footer-page>
   </div>
@@ -27,12 +30,13 @@ export default {
 
   data(){
     return{
+      equipo :'Nuestro Equipo',
       titulo :'Noticias del País',
       team:[ {
             codigo: 1,
             nombre: 'Luis Cortés',
             descripcion: 'Universidad Libre',
-            rol: 'Desarrollador Front End Y Front End',
+            rol: 'Desarrollador Front End y Back End',
             image: './img/Luis.jpg'
             },
             {
@@ -46,14 +50,14 @@ export default {
             codigo: 3,
             nombre: 'Omar Arias',
             descripcion: 'Ingeniería mecánica en la Universidad Distrital',
-            rol: 'Desarrollador Front End Y Front End',
+            rol: 'Desarrollador Front End',
             image: './img/omar.jpg'
             },
             {
             codigo: 4,
             nombre: 'Adriana Pérez',
             descripcion: 'Universidad Pedagógica y Tecnológica de Colombia',
-            rol: 'Desarrollador Front End',
+            rol: 'Desarrollador Front End y Back End',
             image: './img/Adriana.jpg'
             } ]
     }
