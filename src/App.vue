@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1 class="h1 text-center">{{titulo}}</h1>
+    <h1 class="h1 text-center text-info">{{titulo}}</h1>
     <Noticias></Noticias>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
   },
   data(){
     return{
-      titulo : 'Noticias Colombia'
+      titulo :'Noticias del País'
     }
   }
 }

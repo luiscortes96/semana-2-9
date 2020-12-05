@@ -1,22 +1,16 @@
 <template>
-    <div class="row px-5">
-        <div v-for="item in informacion" :key="item.id" class=".col-6 .col-md-4 mx-auto my-4"> 
-           <div class="card mb-3 h-100" style="max-width: 550px;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                         <!-- <img src="{{ item.urlToImage }}" class="card-img" alt="..."> -->
-                    </div>
-                    <div class="col-md-8">
-                         <div class="card-body">
-                            <h5 class="card-title">{{ item.title }}</h5>
-                            <p class="card-text">{{ item.description }}</p>
-                            <p class="card-text"><small class="text-muted">{{ item.publishedAt }}</small></p>
-                        </div>
-                    </div>
+    <div class="row container-fluid mx-auto">
+        <div v-for="item in informacion" v-bind:key="item.id" class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mx-auto my-3">
+            <div class="card  mb-3 h-100">
+                <img class="card-img-top"  v-bind:src="item.urlToImage" v-bind:alt="item.title">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.title}}</h5>
+                    <p class="card-text text-justify">{{item.description}}</p>
+                    <a v-bind:href="item.url" class="btn btn-primary">Ver más</a>
                 </div>
             </div>
-        </div> 
-    </div>  
+        </div>
+    </div>
 </template>
 
 <script>
@@ -29,6 +23,7 @@ export default {
     data(){
         return{
             informacion:[] ,
+            titulo : 'Noticias de la semana'
 
         }
   },
