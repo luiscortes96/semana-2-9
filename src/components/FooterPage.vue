@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-6 mt-md-0 mt-3">
                          <p>Esta página web es una página diseñada para exponer nuevos cursos virtuales gratuitos
-                            acerca de temas relacionados con desarrollo web, Bases de datos, Big Data.  <br> <br>
+                            acerca de temas relacionados con desarrollo web, Bases de datos, Big Data y otros.  <br> <br>
                             Cualquier usuario puede acceder a la educación de alta calidad y fácil acceso
                             en la mayoría de temas relaconados con tecnología.
                         </p>
