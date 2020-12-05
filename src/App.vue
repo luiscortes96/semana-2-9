@@ -8,11 +8,13 @@
 <script>
 import Noticias from './components/Noticias.vue'
 
+
 export default {
   name: 'App',
   components: {
     Noticias
   },
+
   data(){
     return{
       titulo :'Noticias del País'
