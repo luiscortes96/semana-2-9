@@ -1,7 +1,7 @@
 <template>
   <div id="app">
   
-  <div class="row row-cols-4 row-cols-lg-4 container-fluid mx-auto py-4  ">
+  <div id="team" class="row row-cols-4 row-cols-lg-4 container-fluid mx-auto py-4  ">
   <div class="col-lg-3 col-md-6 mb-4 mb-lg-0" v-for="(item, index) of team" :key="index">
   <TeamCard v-bind:member="item"></TeamCard>
   
