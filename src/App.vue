@@ -47,7 +47,7 @@ export default {
             nombre: 'Omar Arias',
             descripcion: 'Ingeniería mecánica en la Universidad Distrital. Pasatiempo:leer, dibujar, escuchar música y practicar inglés y alemán.',
             rol: 'Desarrollador Front End Y Front End',
-            image: './img/omar.png'
+            image: './img/omar.jpg'
             },
             {
             codigo: 4,
