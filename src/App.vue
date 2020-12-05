@@ -31,28 +31,28 @@ export default {
       team:[ {
             codigo: 1,
             nombre: 'Luis Cortés',
-            descripcion: 'Universidad Libre, Ingeniería Industrial Pasatiempo: Leer, tocar un instrumento musical guitarra.',
+            descripcion: 'Universidad Libre',
             rol: 'Desarrollador Front End Y Front End',
             image: './img/Luis.jpg'
             },
             {
             codigo: 2,
             nombre: 'Edson Suarez',
-            descripcion: 'Universidad Industrial de Santander Pasatiempo: Jugar videojuegos, tocar guitarra, practicar baloncesto, filososfar.',
+            descripcion: 'Universidad Industrial de Santander',
             rol: 'Desarrollador Front End',
             image: './img/Edson.jpg'
             },
             {
             codigo: 3,
             nombre: 'Omar Arias',
-            descripcion: 'Ingeniería mecánica en la Universidad Distrital. Pasatiempo:leer, dibujar, escuchar música y practicar inglés y alemán.',
+            descripcion: 'Ingeniería mecánica en la Universidad Distrital',
             rol: 'Desarrollador Front End Y Front End',
             image: './img/omar.jpg'
             },
             {
             codigo: 4,
             nombre: 'Adriana Pérez',
-            descripcion: 'Universidad Pedagógica y Tecnológica de Colombia Pasatiempo: Leer, Ver Series.',
+            descripcion: 'Universidad Pedagógica y Tecnológica de Colombia',
             rol: 'Desarrollador Front End',
             image: './img/Adriana.jpg'
             } ]
