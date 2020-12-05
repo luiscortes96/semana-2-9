@@ -7,7 +7,7 @@
                          <p>Esta página web es una página diseñada para exponer nuevos cursos virtuales gratuitos
                             acerca de temas relacionados con desarrollo web, Bases de datos, Big Data.  <br> <br>
                             Cualquier usuario puede acceder a la educación de alta calidad y fácil acceso
-                            en la mayoría de temas relaconados con tecnología
+                            en la mayoría de temas relaconados con tecnología.
                         </p>
                         <p>
                         <a href="https://github.com/luiscortes96/semana-2-9" class="btn btn-dark" role="button">Repositorio en GitHub</a>
